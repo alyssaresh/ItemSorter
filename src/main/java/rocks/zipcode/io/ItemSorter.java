@@ -10,7 +10,6 @@ import java.util.Comparator;
  */
 public class ItemSorter {
     private Item[] itemsToSort;
-    Comparator<Item> comparator;
 
     public ItemSorter(Item[] items) {
         this.itemsToSort = items;
